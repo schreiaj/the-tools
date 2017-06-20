@@ -30,7 +30,7 @@ class App extends Component {
       <div className="App">
         <PageHeader>Tampa Hackerspace Tool Status</PageHeader>
         <div className='container'>
-          <Table striped bordered condensed>
+          <Table hover responsive striped bordered condensed>
             <thead>
               <tr>
                 <th>Status</th>
